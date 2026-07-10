@@ -19,19 +19,6 @@ A collection of frontend projects built while learning and practicing web develo
 
 ---
 
-## 📁 Repository Structure
-
-```
-web-UI-projects/
-│
-├── Business_card/
-├── Project_2/
-├── Project_3/
-└── README.md
-```
-
----
-
 ## ▶️ Getting Started
 
 1. Clone the repository
