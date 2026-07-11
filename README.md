@@ -14,8 +14,23 @@ A collection of frontend projects built while learning and practicing web develo
 
 ## 📂 Projects
 
-- **Business Card**
+- **Business Card** — a responsive digital business card layout
+- **NetflixDemo** — a Netflix-inspired landing page clone
+- **UniverseWebpage** — a themed webpage exploring space/universe design
 - More projects coming soon...
+
+---
+
+## 📁 Repository Structure
+
+```
+web-UI-projects/
+│
+├── Business_card/
+├── NetflixDemo/
+├── UniverseWebpage/
+└── README.md
+```
 
 ---
 
