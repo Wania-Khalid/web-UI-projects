@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Mockup Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">NETFLIX</div>
+        <ul class="nav-links">
+            <li>Home</li>
+            <li>TV Shows</li>
+            <li>Movies</li>
+            <li>New & Popular</li>
+        </ul>
+    </nav>
+    <header class="billboard">
+        <div class="billboard-content">
+            <h1 class="billboard-title">Stranger Things</h1>
+            <p class="billboard-description">When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.</p>
+            <div class="billboard-buttons">
+                <button class="btn btn-play" id="billboardPlayBtn">► Play</button>
+                <button class="btn btn-info" id="billboardInfoBtn">ⓘ More Info</button>
+            </div>
+        </div>
+    </header>
+    <main class="movies-container">
+        <div class="row">
+            <h2>Trending Now</h2>
+            <div class="row-posters" id="trendingRow"></div>
+        </div>
+        <div class="row">
+            <h2>Action & Sci-Fi Thrillers</h2>
+            <div class="row-posters" id="actionRow"></div>
+        </div>
+    </main>
+    <div class="video-modal" id="videoModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <h2 id="modalMovieTitle">Now Playing</h2>
+            <div class="video-player-placeholder">
+                <div class="play-icon">▶</div>
+                <p>Streaming simulated movie content...</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
